@@ -1,4 +1,4 @@
-# typescript-base-project
+# typescript-azure-functions
 
 Base repository for typescript projects.
 
