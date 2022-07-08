@@ -1,0 +1,37 @@
+{
+  "name": "typescript-starter",
+  "version": "1.0.0",
+  "description": "Base repository for typescript projects.",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf ./build && tsc",
+    "start:dev": "nodemon",
+    "start": "npm run build && node build/index.js",
+    "prettier:fix": "npx prettier --write .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aricardoreis/typescript-base-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aricardoreis/typescript-base-project/issues"
+  },
+  "homepage": "https://github.com/aricardoreis/typescript-base-project#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^18.0.3",
+    "nodemon": "^2.0.19",
+    "prettier": "2.7.1",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  }
+}
