@@ -54,3 +54,35 @@ npm install
 npm start
 ```
 Now you will be able to access the function at localhost.
+
+- Open the azure function folder and deploy it to the cloud
+```
+npm run deploy
+```
+
+# Terraform
+
+Open the infrastructure folder and init terraform files
+```
+terraform init
+```
+
+Format files
+```
+terraform fmt
+```
+
+Check files
+```
+terraform validate
+```
+
+Plan changes
+```
+terraform plan
+```
+
+Save changes
+```
+terraform apply
+```
