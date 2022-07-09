@@ -7,7 +7,8 @@
     "build": "rimraf ./build && tsc",
     "start": "npm install && npm run build && node build/index.js",
     "prettier:fix": "npx prettier --write .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\"",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   "homepage": "https://github.com/aricardoreis/typescript-base-project#readme",
   "devDependencies": {
     "@types/node": "^18.0.3",
+    "husky": "^8.0.1",
     "prettier": "2.7.1",
     "rimraf": "^3.0.2",
     "ts-node": "^10.8.2",
