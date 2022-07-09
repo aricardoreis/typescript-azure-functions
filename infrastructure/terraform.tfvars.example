@@ -1,0 +1,5 @@
+# terraform/terraform.tfvars
+
+project     = "project-name"
+environment = "dev"
+location    = "East US"
