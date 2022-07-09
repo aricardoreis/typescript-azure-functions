@@ -36,3 +36,21 @@ npm run start:dev
 ```
 npm run prettier:fix
 ```
+
+# Working with Azure functions
+
+- Create a new typescript function app
+```
+func init <func-app-name> --typescript
+```
+
+- Add a new HTTP-triggered function to the project
+```
+func new --name <func-name> --template "HTTP trigger" --authlevel "anonymous"
+```
+- Run the function locally
+```
+npm install
+npm start
+```
+Now you will be able to access the function at localhost.
